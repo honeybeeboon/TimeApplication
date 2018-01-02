@@ -35,6 +35,8 @@ class ViewController3 : UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        ResetButton.isEnabled = false
+        StopButton.isEnabled = false
         
         // Do any additional setup after loading the view.
     }
@@ -81,6 +83,11 @@ class ViewController3 : UIViewController{
         
     }
     
+    @IBAction func getTime(_ sender: Any) {
+        Minute.text = MinuteLabel.text
+        Second.text = SecondLabel.text
+        MSecond.text = MSecondLabel.text
+    }
     
     
     override func didReceiveMemoryWarning() {
