@@ -19,6 +19,11 @@ class ViewController3 : UIViewController{
     @IBOutlet weak var StopButton: UIButton!
     @IBOutlet weak var ResetButton: UIButton!
     
+    @IBOutlet weak var Minute: UILabel!
+    @IBOutlet weak var Second: UILabel!
+    @IBOutlet weak var getTimeButton: UIButton!
+    
+    @IBOutlet weak var MSecond: UILabel!
     var timer = Timer()
     var startTime:TimeInterval = 0
     var elapsedTime:Double = 0.0

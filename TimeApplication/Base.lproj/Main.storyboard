@@ -162,12 +162,16 @@
                         <viewLayoutGuide key="safeArea" id="DhT-SA-q96"/>
                     </view>
                     <connections>
+                        <outlet property="MSecond" destination="NbW-6A-NHP" id="wws-Ew-2Gg"/>
                         <outlet property="MSecondLabel" destination="OyC-pL-pAI" id="9QW-D3-NMR"/>
+                        <outlet property="Minute" destination="OWk-HS-4fu" id="vhb-22-Kmd"/>
                         <outlet property="MinuteLabel" destination="q8z-1s-I7C" id="gGe-k0-svd"/>
                         <outlet property="ResetButton" destination="Q6s-Sb-oaO" id="nip-WS-THd"/>
+                        <outlet property="Second" destination="6y3-f8-tpa" id="KCN-BS-RcM"/>
                         <outlet property="SecondLabel" destination="kjD-C5-scx" id="BK5-1u-7yk"/>
                         <outlet property="StartButton" destination="qw6-zl-QPY" id="Ke2-JM-RfQ"/>
                         <outlet property="StopButton" destination="bdo-78-ecs" id="71Y-jR-vgg"/>
+                        <outlet property="getTimeButton" destination="37O-le-CoQ" id="lKY-uw-Aul"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VPQ-uW-d8o" userLabel="First Responder" sceneMemberID="firstResponder"/>
