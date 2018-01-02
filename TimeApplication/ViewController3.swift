@@ -66,7 +66,15 @@ class ViewController3 : UIViewController{
         
     }
     
-
+    @IBAction func reset(_ sender: Any) {
+        
+        MinuteLabel.text = String(format:"%02d",00)
+        SecondLabel.text = String(format:"%02d",00)
+        MSecondLabel.text = String(format:"%02d",00)
+        
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
