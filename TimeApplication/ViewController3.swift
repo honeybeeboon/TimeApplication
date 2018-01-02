@@ -21,9 +21,10 @@ class ViewController3 : UIViewController{
     
     @IBOutlet weak var Minute: UILabel!
     @IBOutlet weak var Second: UILabel!
+   @IBOutlet weak var MSecond: UILabel!
     @IBOutlet weak var getTimeButton: UIButton!
     
-    @IBOutlet weak var MSecond: UILabel!
+    
     var timer = Timer()
     var startTime:TimeInterval = 0
     var elapsedTime:Double = 0.0
@@ -79,6 +80,8 @@ class ViewController3 : UIViewController{
         
         
     }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
