@@ -54,7 +54,18 @@ class ViewController3 : UIViewController{
     
     }
     
- 
+    @IBAction func stop(_ sender: Any) {
+        StartButton.isEnabled = true
+        ResetButton.isEnabled = true
+        StopButton.isEnabled = false
+        
+        timer.invalidate()
+        elapsedTime = time
+        
+        
+        
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
