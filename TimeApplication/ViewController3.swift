@@ -33,7 +33,7 @@ class ViewController3 : UIViewController{
         // Do any additional setup after loading the view.
     }
     
- /*   @IBAction func Start(_ sender: Any) {
+    @IBAction func Start(_ sender: Any) {
         StartButton.isEnabled = false
         ResetButton.isEnabled = false
         StopButton.isEnabled = true
@@ -47,14 +47,14 @@ class ViewController3 : UIViewController{
         time = Date().timeIntervalSince1970 - startTime + elapsedTime
         let sec = Int(time)
         let msec = Int((time - Double(sec)) * 100.0)
-        MinuteLabel.text = String(sec / 60)
-        SecondLabel.text = String(sec % 60)
-        MSecondLabel.text = String(msec)
+        MinuteLabel.text = String(format:"%02d",sec / 60)
+        SecondLabel.text = String(format:"%02d",sec % 60)
+        MSecondLabel.text = String(format:"%02d",msec)
         
     
     }
     
- */
+ 
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
