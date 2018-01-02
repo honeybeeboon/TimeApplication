@@ -14,6 +14,8 @@
 		D410B4221FFB0C20005797CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D410B4201FFB0C20005797CD /* LaunchScreen.storyboard */; };
 		D410B42D1FFB0C20005797CD /* TimeApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410B42C1FFB0C20005797CD /* TimeApplicationTests.swift */; };
 		D410B4381FFB0C20005797CD /* TimeApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410B4371FFB0C20005797CD /* TimeApplicationUITests.swift */; };
+		D410B4481FFB0CD7005797CD /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410B4471FFB0CD7005797CD /* ViewController2.swift */; };
+		D410B44A1FFB0E87005797CD /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D410B4491FFB0E87005797CD /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D410B4331FFB0C20005797CD /* TimeApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D410B4371FFB0C20005797CD /* TimeApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeApplicationUITests.swift; sourceTree = "<group>"; };
 		D410B4391FFB0C20005797CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D410B4471FFB0CD7005797CD /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		D410B4491FFB0E87005797CD /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				D410B4171FFB0C20005797CD /* AppDelegate.swift */,
 				D410B4191FFB0C20005797CD /* ViewController.swift */,
+				D410B4471FFB0CD7005797CD /* ViewController2.swift */,
+				D410B4491FFB0E87005797CD /* ViewController3.swift */,
 				D410B41B1FFB0C20005797CD /* Main.storyboard */,
 				D410B41E1FFB0C20005797CD /* Assets.xcassets */,
 				D410B4201FFB0C20005797CD /* LaunchScreen.storyboard */,
@@ -261,6 +267,8 @@
 			files = (
 				D410B41A1FFB0C20005797CD /* ViewController.swift in Sources */,
 				D410B4181FFB0C20005797CD /* AppDelegate.swift in Sources */,
+				D410B4481FFB0CD7005797CD /* ViewController2.swift in Sources */,
+				D410B44A1FFB0E87005797CD /* ViewController3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

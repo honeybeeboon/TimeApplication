@@ -1,0 +1,75 @@
+//
+//  StopWatch.swift
+//  TimeApplication
+//
+//  Created by 下澤一輝 on 2018/01/02.
+//  Copyright © 2018年 下澤一輝. All rights reserved.
+//
+
+import UIKit
+
+class ViewController3 : UIViewController{
+
+    @IBOutlet weak var MinuteLabel: UILabel!
+    @IBOutlet weak var SecondLabel: UILabel!
+    @IBOutlet weak var MSecondLabel: UILabel!
+    
+    @IBOutlet weak var StartButton: UIButton!
+    
+    @IBOutlet weak var StopButton: UIButton!
+    @IBOutlet weak var ResetButton: UIButton!
+    
+    var timer = Timer()
+    var startTime:TimeInterval = 0
+    var elapsedTime:Double = 0.0
+    var time : Double = 0.0
+    
+    
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Do any additional setup after loading the view.
+    }
+    
+ /*   @IBAction func Start(_ sender: Any) {
+        StartButton.isEnabled = false
+        ResetButton.isEnabled = false
+        StopButton.isEnabled = true
+        
+        startTime = Date().timeIntervalSince1970
+        timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(self.update), userInfo: nil, repeats: true)
+    
+    }
+    
+    @objc func update(){
+        time = Date().timeIntervalSince1970 - startTime + elapsedTime
+        let sec = Int(time)
+        let msec = Int((time - Double(sec)) * 100.0)
+        MinuteLabel.text = String(sec / 60)
+        SecondLabel.text = String(sec % 60)
+        MSecondLabel.text = String(msec)
+        
+    
+    }
+    
+ */
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
